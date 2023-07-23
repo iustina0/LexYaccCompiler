@@ -1,4 +1,4 @@
-# Yacc/Lex/C Compiler Project - Implementation of a Programming Language with AST
+# Yacc/Lex/C Compiler Project - Implementation of a Programming Language with AST - December 2022 
 
 The Yacc/Lex/C Compiler Project is a powerful undertaking that aims to develop a complete programming language and its corresponding compiler components. This project involves the integration of Yacc (Yet Another Compiler Compiler) and Lex (Lexical Analyzer) tools with C programming language to create a functional and efficient compiler for the designed language. The compiler supports various features, including declarations, attributions, and expressions, and uses the Abstract Syntax Tree (AST) representation for effective code generation.
 
