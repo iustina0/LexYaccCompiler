@@ -1,0 +1,116 @@
+int i, a, b, x, x1, x2, y, arr[10], param1, param2;
+int aux=10;
+bool v=true;
+string p="sfs";
+bool gasit, fd;
+string s="ana";
+float medie, z, f, f1, f2, f3;
+
+int testFunction(int x, float z) 
+{
+    if(x > z)
+    {
+        return x;
+    };
+
+    if(z > x)
+    {
+        return z;
+    };
+};
+
+int test(int param1, int param2, float f) 
+{
+    gasit = false;
+    if( [(param1 + param2) == f] )
+    {
+        gasit = true;
+    };
+    return gasit;
+};
+
+bool verificare(int a){
+    if(a==2){
+        return 0;
+    };
+};
+
+class Car1{
+    int an_fabricatie;
+    int model;
+    int putere_motor;
+};
+
+class C2{
+    int tip_combustibil;
+    int cai_putere;
+};
+
+class student{
+    int Nr_matrticol;
+    bool bursa;
+    string nume;
+    float medie;
+    bool trecut(float medie){
+        if(medie>=5)
+        {
+            return 1;
+        };
+    };
+};
+
+student elev;
+
+
+
+int main()
+{
+    elev.Nr_matrticol=1234;
+    elev.nume="Andrei Popescu";
+    elev.medie=5.5;
+
+    fd=true;
+
+    a=100;
+    b=56;
+    f=100.5;
+    test(a,b,f);
+    gasit=false;
+
+    if([a==1] && [b<5] || [a+b>6])
+    {
+        a=2;
+    };
+
+    while(a>b)
+    {
+        if(a==40)
+        {
+            for(i=0;i<10;i++)
+            {
+                verificare(a);
+                gasit= true;
+            };
+        };
+    };
+
+    x=10; x1=20; x2=30; y=100;
+
+    if( [(x1 + test(x1,x2,f)) < 5 + x1] && [ [x>2] || [x1 < (4+x2)] || [x==2] ])
+    {
+        x=2;
+    };
+
+    arr[2] = 1;
+    x1 = x*100 + 5*100 + arr[2];
+    x = test(x1,3,f) + 22 + (30 + y * arr[2]);
+
+    a=Eval(x*10-100);
+    x1=Eval(x1);
+    x2=Eval(x2* 10-200) ;
+    f1=(0.23+3.12*84.99)/5.8*(34.87-23.0);
+    f2=653.54;
+    f3=Eval(f1*0.6+f2);
+    x=Eval(x+ test(x1,x,f)) ;
+    p=TypeOf(p);
+}

@@ -1,0 +1,5 @@
+TIP			ID			PARAMETRII
+int		testFunction		x int	z float	
+int		test		param1 int	param2 int	f float	
+bool		verificare		a int	
+bool		elev.trecut		medie float	
